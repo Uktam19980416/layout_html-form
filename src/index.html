@@ -15,7 +15,9 @@
       <fieldset class="fieldset">
         <legend>Personal information</legend>
         <div class="form__block">
-          <label for="surname" class="form__label">Surname:</label>
+          <label for="surname" class="form__label">
+            Surname:
+          </label>
           <input
             type="text"
             id="surname"
@@ -24,7 +26,9 @@
           >
         </div>
         <div class="form__block">
-          <label for="name" class="form__label">Name:</label>
+          <label for="name" class="form__label">
+            Name:
+          </label>
           <input
             type="text"
             id="name"
@@ -33,7 +37,9 @@
           >
         </div>
         <div class="form__block">
-          <label for="age" class="form__label">How old are You?</label>
+          <label for="age" class="form__label">
+            How old are You?
+          </label>
           <input
             type="number"
             id="age"
@@ -44,7 +50,9 @@
           >
         </div>
         <div class="form__block">
-          <label for="birth" class="form__label">Full date of birth:</label>
+          <label for="birth" class="form__label">
+            Full date of birth:
+          </label>
           <input
             type="date"
             id="birth"
@@ -52,7 +60,9 @@
           >
         </div>
         <div class="form__block">
-          <label for="agreement" class="form__label">I accept the term of the agreement</label>
+          <label for="agreement" class="form__label">
+              I accept the term of the agreement
+          </label>
           <input
             type="checkbox"
             id="agreement"
@@ -64,7 +74,9 @@
       <fieldset class="fieldset">
         <legend>Registration</legend>
         <div class="form__block">
-          <label for="email" class="form__label">E-mail:</label>
+          <label for="email" class="form__label">
+              E-mail:
+          </label>
           <input
             type="email"
             id="email"
@@ -73,10 +85,13 @@
           >
         </div>
         <div class="form__block">
-          <label for="password" class="form__label">Password:</label>
-          <input type="password"
-                  id="password"
-                  required
+          <label for="password" class="form__label">
+            Password:
+          </label>
+          <input
+            type="password"
+            id="password"
+            required
           >
         </div>
       </fieldset>
@@ -84,21 +99,34 @@
       <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
         <div class="form__block">
-          <label class="form__label">Do you love cats?</label>
-          <input
-            type="radio"
-            id="yes"
-            name="radio"
-            required
-          > <label for="yes">Yes</label>
-          <input
-            type="radio"
-            id="no"
-            name="radio"
-          > <label for="no">No</label>
+          <label class="form__label">
+            Do you love cats?
+          </label>
+          <label for="yes">
+            Yes
+            <input
+              type="radio"
+              id="yes"
+              name="radio"
+              required
+              value="yes"
+            >
+          </label>
+          <label for="no">
+            No
+            <input
+              type="radio"
+              id="no"
+              name="radio"
+              required
+              value="no"
+            >
+          </label>
         </div>
         <div class="form__block">
-          <label for="color" class="form__label">What is your favorite color?</label>
+          <label for="color" class="form__label">
+            What is your favorite color?
+          </label>
           <input
             type="color"
             id="color"
@@ -106,18 +134,22 @@
           >
         </div>
         <div class="form__block">
-          <label for="sleep" class="form__label">What time do you go to bed?</label>
+          <label for="sleep" class="form__label">
+            What time do you go to bed?
+          </label>
           <input
-            type="month"
+            type="time"
             id="sleep"
             required
           >
         </div>
         <div class="form__block">
-          <label class="form__label">What are your favorite brand of cars?</label>
+          <label class="form__label">
+            What are your favorite brand of cars?
+          </label>
           <select
             name="cars"
-            multiple size="4"
+            multiple
             required
           >
             <option value="bmw">BMW</option>
@@ -127,7 +159,9 @@
           </select>
         </div>
         <div class="form__block">
-          <label for="rating" class="form__label">How do you rate our work?</label>
+          <label for="rating" class="form__label">
+            How do you rate our work?
+          </label>
           <input
             type="range"
             id="rating"
@@ -140,7 +174,9 @@
       <fieldset class="fieldset">
         <legend>Additional info:</legend>
         <div class="form__block">
-          <label class="form__label">Comments:</label>
+          <label class="form__label">
+            Comments:
+          </label>
           <textarea
             name="comment"
             cols="20"
@@ -149,7 +185,9 @@
           </textarea>
         </div>
         <div class="form__block">
-          <label class="form__label">Would you recommend us?</label>
+          <label class="form__label">
+            Would you recommend us?
+          </label>
           <select required>
             <option value="yes">yes</option>
             <option value="no">no</option>
