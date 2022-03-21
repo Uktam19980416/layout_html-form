@@ -14,185 +14,157 @@
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="fieldset">
         <legend>Personal information</legend>
-        <div class="form__block">
-          <label for="surname" class="form__label">
-            Surname:
-          </label>
+        <label for="surname" class="form__label">
+          Surname:
           <input
-            type="text"
-            id="surname"
-            autocomplete="off"
-            required
+          type="text"
+          id="surname"
+          autocomplete="off"
+          required
           >
-        </div>
-        <div class="form__block">
-          <label for="name" class="form__label">
-            Name:
-          </label>
+        </label>
+        <label for="name" class="form__label">
+          Name:
           <input
-            type="text"
-            id="name"
-            autocomplete="off"
-            required
+          type="text"
+          id="name"
+          autocomplete="off"
+          required
           >
-        </div>
-        <div class="form__block">
-          <label for="age" class="form__label">
-            How old are You?
-          </label>
+        </label>
+        <label for="age" class="form__label">
+          How old are You?
           <input
-            type="number"
-            id="age"
-            value="12"
-            min="1"
-            max="100"
-            required
+          type="number"
+          id="age"
+          value="12"
+          min="1"
+          max="100"
+          required
           >
-        </div>
-        <div class="form__block">
-          <label for="birth" class="form__label">
-            Full date of birth:
-          </label>
+        </label>
+        <label for="birth" class="form__label">
+          Full date of birth:
           <input
-            type="date"
-            id="birth"
-            required
+          type="date"
+          id="birth"
+          required
           >
-        </div>
-        <div class="form__block">
-          <label for="agreement" class="form__label">
-              I accept the term of the agreement
-          </label>
+        </label>
+        <label for="agreement" class="form__label">
+          I accept the term of the agreement
           <input
-            type="checkbox"
-            id="agreement"
-            required
+          type="checkbox"
+          id="agreement"
+          required
           >
-        </div>
+        </label>
       </fieldset>
 
       <fieldset class="fieldset">
         <legend>Registration</legend>
-        <div class="form__block">
-          <label for="email" class="form__label">
-              E-mail:
-          </label>
+        <label for="email" class="form__label">
+          E-mail:
           <input
-            type="email"
-            id="email"
-            autocomplete="off"
-            placeholder="email@example.com"
+          type="email"
+          id="email"
+          autocomplete="off"
+          placeholder="email@example.com"
           >
-        </div>
-        <div class="form__block">
-          <label for="password" class="form__label">
-            Password:
-          </label>
+        </label>
+        <label for="password" class="form__label">
+          Password:
           <input
-            type="password"
-            id="password"
-            required
+          type="password"
+          id="password"
+          required
           >
-        </div>
+        </label>
       </fieldset>
 
       <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
-        <div class="form__block">
-          <label class="form__label">
-            Do you love cats?
-          </label>
+        <div class="form__label">
+          Do you love cats?
           <label for="yes">
             Yes
             <input
-              type="radio"
-              id="yes"
-              name="radio"
-              required
-              value="yes"
+            type="radio"
+            id="yes"
+            name="radio"
+            required
+            value="yes"
             >
           </label>
           <label for="no">
             No
             <input
-              type="radio"
-              id="no"
-              name="radio"
-              required
-              value="no"
+            type="radio"
+            id="no"
+            name="radio"
+            required
+            value="no"
             >
           </label>
         </div>
-        <div class="form__block">
-          <label for="color" class="form__label">
-            What is your favorite color?
-          </label>
+        <label for="color" class="form__label">
+          What is your favorite color?
           <input
-            type="color"
-            id="color"
-            required
+          type="color"
+          id="color"
+          required
           >
-        </div>
-        <div class="form__block">
-          <label for="sleep" class="form__label">
-            What time do you go to bed?
-          </label>
+        </label>
+        <label for="sleep" class="form__label">
+          What time do you go to bed?
           <input
-            type="time"
-            id="sleep"
-            required
+          type="time"
+          id="sleep"
+          required
           >
-        </div>
-        <div class="form__block">
-          <label class="form__label">
-            What are your favorite brand of cars?
-          </label>
+        </label>
+        <label class="form__label">
+          What are your favorite brand of cars?
           <select
             name="cars"
             multiple
             required
-          >
+            >
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
             <option value="empty"></option>
           </select>
-        </div>
-        <div class="form__block">
-          <label for="rating" class="form__label">
-            How do you rate our work?
-          </label>
+        </label>
+        <label for="rating" class="form__label">
+          How do you rate our work?
           <input
-            type="range"
-            id="rating"
-            value="0"
-            required
+          type="range"
+          id="rating"
+          value="0"
+          required
           >
-        </div>
+        </label>
       </fieldset>
 
       <fieldset class="fieldset">
         <legend>Additional info:</legend>
-        <div class="form__block">
-          <label class="form__label">
-            Comments:
-          </label>
+        <label class="form__label">
+          Comments:
           <textarea
             name="comment"
             cols="20"
             rows="2"
-          >
+            >
           </textarea>
-        </div>
-        <div class="form__block">
-          <label class="form__label">
-            Would you recommend us?
-          </label>
+        </label>
+        <label class="form__label">
+          Would you recommend us?
           <select required>
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
-        </div>
+        </label>
       </fieldset>
 
       <button type="submit">Submit</button>

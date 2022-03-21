@@ -4,7 +4,8 @@
   padding-bottom: 0;
 }
 
-.form__block {
+.form__label {
+  display: block;
   margin-bottom: 10px;
   padding-bottom: 0;
 }
